@@ -1,6 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .navbar {
     background: #E2DDD7;
-    color: #080C59
+    color: #080C59;
+}
+
+.collapse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .nav-link {
@@ -27,3 +39,4 @@ h1 {
     font-size: 20px;
     border: 1px #E2DDD7;
 }
+
