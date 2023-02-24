@@ -77,7 +77,6 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
     grid-gap: 10px;
-    padding: 0px 500px;
   }
   
   .grid-container > div {
@@ -88,7 +87,8 @@ footer {
   
   .single-cell {
     grid-column: 1 / -1;
-    font-family: 'Aboreto', cursive;
+    font-family: 'Josefin sans', sans-serif;
+    font-size: 24px;
   }
   
   .three-cols {
@@ -97,10 +97,12 @@ footer {
     grid-gap: 10px;
     font-family: 'Josefin sans', sans-serif;
     font-size: 32px;
+    font-weight: bold;
     text-align: center;
   }
 
   .alt {
     font-family: "Aboreto", cursive;
+    font-weight: normal;
   }
   
