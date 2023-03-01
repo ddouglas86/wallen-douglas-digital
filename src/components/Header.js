@@ -1,38 +1,7 @@
-// import React from "react";
-// import { Link } from "react-router-dom";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import '../styles.css';
-
 import React from 'react';
 import { Container, Navbar, Nav, Button } from 'react-bootstrap';
 import logo from '../logo.png';
 import '../styles.css';
-
-
-// const Header = () => {
-//     return (
-//         <header>
-//             <nav class="navbar navbar-expand-lg bg-body-tertiary">
-//                 <div class="container-fluid">
-//                     <img src="/assets/logo.jpeg" alt="Logo" width="120" height="118"
-//                         class="d-inline-block align-text-top" />
-//                     <h1>Wallen-Douglas<br />Digital</h1>
-//                     <span class="navbar-toggler-icon"></span>
-//                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-//                         <div class="navbar-nav">
-//                             <a class="nav-link" href="#">About</a>
-//                             <a class="nav-link" href="#">Services</a>
-//                             <a class="nav-link" href="#">Portfolio</a>
-//                             <a class="nav-link" href="#">Learn</a>
-//                             <button type="button" class="btn btn-contact">Get In Touch</button>
-//                         </div>
-//                     </div>
-//                 </div>
-//             </nav>
-//         </header>
-//     )
-// }
-
 
 function Header() {
     return (
