@@ -5,7 +5,7 @@
 
 import React from 'react';
 import { Container, Navbar, Nav, Button } from 'react-bootstrap';
-import logo from '../logo.jpeg';
+import logo from '../logo.png';
 import '../styles.css';
 
 

@@ -6,8 +6,8 @@
 
 
 .logo {
-    width: 120px;
-    height: 118px;
+    width: 99px;
+    height: 98.33px;
     margin: 0 20px;
 }
 
@@ -32,13 +32,13 @@
 .custom-nav-link {
     color: #080C59;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 .company-name {
     font-family: 'Aboreto', cursive;
-    font-size: 32px;
+    font-size: 40px;
     color: #080C59;
 }
 
