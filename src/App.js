@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Learn from "./pages/Learn.js";
 // import Whoops404 from "./pages/Whoops404.js";
 import Header from './components/Header.js';
-// import Footer from './components/Footer.js';
+import Footer from './components/Footer.js';
 
 function App() {
     return (
@@ -32,8 +32,8 @@ function App() {
                         element={<Whoops404 />}
                     />
                 </Routes>
-            </div>
-            <Footer /> */}
+            </div>*/}
+            <Footer /> 
         </Router>
     );
 }
