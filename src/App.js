@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Whoops404 from "./pages/Whoops404.js";
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
+import CTA from "./components/CTA.js";
 
 function App() {
     return (
@@ -33,6 +34,7 @@ function App() {
                     />
                 </Routes>
             </div>*/}
+            <CTA />
             <Footer /> 
         </Router>
     );
