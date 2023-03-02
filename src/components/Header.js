@@ -6,7 +6,7 @@ import '../styles.css';
 function Header() {
     return (
         <Navbar>
-            <Container fluid={true} className='p-0'>
+            <Container fluid={true} className='p-0 navbars'>
                 <Navbar.Brand>
                     <img src={logo} alt='Wallen-Douglas Digital logo' className='logo' style={{ marginLeft: '200px' }}/>
                 </Navbar.Brand>

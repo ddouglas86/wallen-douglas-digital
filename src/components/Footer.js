@@ -5,8 +5,8 @@ import '../styles.css';
 
 function Footer() {
     return (
-        <Container fluid={true} className='custom-container'>
-            <Row className='custom-container-row'>
+        <Container fluid={true} className='footer-container'>
+            <Row className='footer-container-row'>
                 <Col md={5} className='text-center'>
                     <Row>
                         <img src={logo} alt='Wallen-Douglas Digital logo' className='mx-auto img-fluid' style={{ maxWidth: "100%", height: "auto", width: "126px" }} />
