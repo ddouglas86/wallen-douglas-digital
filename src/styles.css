@@ -14,8 +14,16 @@
 .logo {
     width: 99px;
     height: 98.33px;
-    margin: 0 20px;
-    margin-left: 126px;
+    /* margin: 0 20px; */
+    /* margin-left: 126px; */
+}
+
+.padded-navbar {
+    padding-left: 126px;
+}
+
+.right-padding {
+    padding-right: 126px;
 }
 
 .navbars {
@@ -63,7 +71,7 @@
     font-size: 20px !important;
     font-weight: bold !important;
     border-color: #E2DDD7 !important;
-    margin-right: 126px;
+    /* margin-right: 126px; */
 }
 
 .custom-button:hover {
@@ -103,6 +111,11 @@
     padding: 20px;
 }
 
+.custom-footer-pad {
+    padding-left: 126px;
+    padding-right: 126px;
+    /* padding-top: 50px; */
+}
 .custom-row {
     margin-bottom: 50px;
     display: flex;
