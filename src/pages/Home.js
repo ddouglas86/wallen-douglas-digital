@@ -5,7 +5,7 @@ import "../styles.css";
 
 function Home() {
     return (
-        <Container fluid={true} className="home-hero">
+        <Container fluid={true} className="home-hero" style={{marginTop: '11vh'}}>
             <Col md={4}>
                 <Row className='home-hero-main-text'>
                     <p>Unlocking Business Growth through Digital Innovation</p>
