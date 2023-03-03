@@ -8,7 +8,7 @@ function Header() {
         <Navbar>
             <Container fluid={true} className='p-0 navbars'>
                 <Navbar.Brand>
-                    <img src={logo} alt='Wallen-Douglas Digital logo' className='logo' style={{ marginLeft: '200px' }}/>
+                    <img src={logo} alt='Wallen-Douglas Digital logo' className='logo'/>
                 </Navbar.Brand>
                 <Navbar.Brand>
                     <span className='company-name'>Wallen-Douglas<br/> Digital</span></Navbar.Brand>
@@ -17,8 +17,9 @@ function Header() {
                     <Nav.Link href='#portfolio'><span className='custom-nav-link mr-3'>Portfolio</span></Nav.Link>
                     <Nav.Link href='#about'><span className='custom-nav-link mr-3'>About Us</span></Nav.Link>
                     <Nav.Link href='#learn'><span className='custom-nav-link'>Learn</span></Nav.Link>
+                    <Button className='custom-button'>Get In Touch</Button>
                 </Nav>
-                <Button className='custom-button'>Get In Touch</Button>
+                
             </Container>
         </Navbar>
     );

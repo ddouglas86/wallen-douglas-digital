@@ -6,7 +6,8 @@
 
 .custom-container {
     width: 100%;
-    padding: 0;
+    /* border-left: 126px solid #080C59;
+    border-right: 126px solid #080C59; */
 }
 /* Header */
 
@@ -14,6 +15,7 @@
     width: 99px;
     height: 98.33px;
     margin: 0 20px;
+    margin-left: 126px;
 }
 
 .navbars {
@@ -29,10 +31,9 @@
 .navbar-nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding: 0 20px;
 }
 
 .custom-nav-link {
@@ -40,6 +41,7 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
     font-weight: bold;
+    /* margin-left: 90px; */
 }
 
 .company-name {
@@ -61,6 +63,7 @@
     font-size: 20px !important;
     font-weight: bold !important;
     border-color: #E2DDD7 !important;
+    margin-right: 126px;
 }
 
 .custom-button:hover {
@@ -105,7 +108,6 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    ;
 }
 
 .footer-nav-link {
@@ -128,7 +130,7 @@ h2 {
 .custom-cta {
     background-color: #080C59;
     color: #E2DDD7;
-    height: 45vh;
+    height: 487px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,7 +146,7 @@ h2 {
 /* Home Hero */
 
 .home-hero {
-    height: 65vh;
+    height: 729px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -155,7 +157,8 @@ h2 {
 .home-hero-main-text {
     font-family: 'Aboreto', cursive;
     font-size: 40px;
-    font-weight: bold;
+    -webkit-text-stroke: 1px #E2DDD7; /* for Safari/Chrome */
+  text-stroke: 1px #E2DDD7; /* for other browsers */
     color: #E2DDD7;
 }
 
@@ -170,5 +173,26 @@ h2 {
     width: 562px;
     height: 659px;
     object-fit: cover;
-    padding: 50px;
+    /* padding: 50px;
+    padding-top: 50px; */
 }
+
+.custom-col-pad-left {
+    padding-left: 126px;
+    padding-right: 60px;
+    /* padding-top: 50px; */
+}
+
+.custom-margin {
+    margin-left: 20px;
+    margin-top: 90px;
+    padding-right: 126px;
+}
+
+.row.body-copy-bold p {
+    margin-bottom: 80px;
+  }
+
+.row.home-hero-main-text p {
+    margin-bottom: 50px;
+  }
