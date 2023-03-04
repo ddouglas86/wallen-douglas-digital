@@ -5,7 +5,7 @@ import '../styles.css';
 
 function Header() {
     return (
-        <Navbar>
+        <Navbar sticky='top'>
             <Container fluid={true} className='p-0 navbars'>
                 <Navbar.Brand className='padded-navbar'>
                     <img src={logo} alt='Wallen-Douglas Digital logo' className='logo'/>
@@ -18,8 +18,7 @@ function Header() {
                     <Nav.Link href='#about'><span className='custom-nav-link mr-3'>About Us</span></Nav.Link>
                     <Nav.Link href='#learn'><span className='custom-nav-link'>Learn</span></Nav.Link>
                     <Button className='custom-button'>Get In Touch</Button>
-                </Nav>
-                
+                </Nav>  
             </Container>
         </Navbar>
     );
