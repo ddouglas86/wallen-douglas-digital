@@ -14,6 +14,10 @@
     height: 98.33px;
 }
 
+.custom-block-spacing {
+    margin-bottom: 80px;
+}
+
 .padded-navbar {
     padding-left: 126px;
 }
@@ -83,7 +87,7 @@
 .custom-button:hover {
     background-color: #80B2F2 !important;
     color: #080C59 !important;
-    box-shadow: 5px 10px 5px 2px rgba(0, 0, 0, .3) inset !important;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .3) inset !important;
 }
 
 
@@ -136,6 +140,11 @@ h2 {
     font-size: 40px;
     font-weight: bold;
     color: #E2DDD7;
+}
+
+.custom-cta-margin {
+    margin-left: 436px;
+    margin-right: 436px;
 }
 
 /* Home Hero */
@@ -252,9 +261,11 @@ h2 {
 .service-band .grid-button {
     width: 265px;
     height: 213px;
+    padding: 3px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-top: 20px;
+    align-items: left;
     margin: 20px !important;
     background-color: #E2DDD7;
     color:#080C59;
@@ -269,9 +280,11 @@ h2 {
 .service-band .grid-button:hover {
     background-color: #080C59;
     color: #E2DDD7;
+    box-shadow: inset 10px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 .service-band .grid-button-content {
+    /* margin-top: 20px; */
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
@@ -282,6 +295,7 @@ h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     font-size: 24px;
+    margin-bottom: 15px;
 }
 
 @media (min-width: 768px) {

@@ -6,12 +6,12 @@ function CTA() {
   return (
     <Container fluid={true} className="custom-cta">
       <Row>
-        <Col className='text-center band-header'>
+        <Col className='text-center band-header custom-block-spacing'>
           <p>Unleash Potential</p>
         </Col>
         </Row>
         <Row>
-        <Col className='text-center body-copy-bold'>
+        <Col className='text-center body-copy-bold custom-block-spacing custom-cta-margin'>
           <p >Unlock the full potential of your business with Wallen-Douglas Digital - get in touch to see how our expertise and tailored solutions can drive your success.</p>
         </Col>
       </Row>

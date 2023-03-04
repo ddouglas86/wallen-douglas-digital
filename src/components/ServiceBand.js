@@ -9,26 +9,26 @@ function ServiceBand() {
         <Col md={5} className='d-flex justify-content-center align-items-center flex-wrap'>
           <Button className='grid-button mb-3'>
             <div className='grid-button-content'>
-              <h3>Button 1 Header</h3>
-              <p>Button 1 Body Text</p>
+              <h3>Digital<br/>Strategy</h3>
+              <p>Maximizing Your Online Potential with a Comprehensive Digital Strategy</p>
             </div>
           </Button>
           <Button className='grid-button mb-3'>
             <div className='grid-button-content'>
-              <h3>Button 2 Header</h3>
-              <p>Button 2 Body Text</p>
+              <h3>Search Engine Optimization (SEO)</h3>
+              <p>Driving Traffic and Building Brand Credibility</p>
             </div>
           </Button>
           <Button className='grid-button mb-3'>
             <div className='grid-button-content'>
-              <h3>Button 3 Header</h3>
-              <p>Button 3 Body Text</p>
+              <h3>User Experience Design (UX)</h3>
+              <p>Putting Your Users First: The Key to Successful UX Design.</p>
             </div>
           </Button>
           <Button className='grid-button mb-3'>
             <div className='grid-button-content'>
-              <h3>Button 4 Header</h3>
-              <p>Button 4 Body Text</p>
+              <h3>Reporting <br/>& Analytics</h3>
+              <p>Unlocking Actionable Insights for Informed Business Decisions through Analytics and Reporting.</p>
             </div>
           </Button>
         </Col>
