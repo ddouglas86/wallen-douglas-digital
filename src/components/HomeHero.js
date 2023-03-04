@@ -5,6 +5,7 @@ import "../styles.css";
 
 function HomeHero() {
     return (
+
         <Container fluid={true} className="home-hero" style={{ marginTop: '11vh' }}>
             <Col md={4} className='custom-col-pad-left'>
                 <Row className='home-hero-main-text'>

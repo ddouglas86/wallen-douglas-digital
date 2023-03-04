@@ -8,10 +8,16 @@
     color: #080C59;
 }
 
-.body-copy-regular {
+.body-copy-regular-blue {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     color: #080C59;
+}
+
+.body-copy-regular-cream {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #E2DDD7;
 }
 
 .body-copy-bold-blue {
@@ -19,6 +25,13 @@
     font-size: 20px;
     font-weight: bold;
     color: #080C59;
+}
+
+.body-copy-bold-cream {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #E2DDD7;
 }
 
 .subheader-regular {
@@ -341,7 +354,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 982px;
+    height: 100%;
     background-color: #E2DDD7;
     color: #080C59;
 }
@@ -350,14 +363,16 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    height: 982px;
+    align-items: left;
+    height: 100%;
     padding-left: 126px;
     padding-right: 126px;
+    padding-bottom: 50px;
 }
 
 .testimonials-container-header {
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .img-thumb {
