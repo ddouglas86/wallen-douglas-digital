@@ -32,21 +32,6 @@ function Home() {
                         <p>Leverage data and analytics to provide valuable insights, identify opportunities, and inform strategic decision-making for high growth companies</p>
                     </Row>
                 </Col>
-                {/* <Row>
-        <Col className='text-center band-header'>
-          <p>Unleash Potential</p>
-        </Col>
-        </Row>
-        <Row>
-        <Col className='text-center'>
-          <p>© 2023 Wallen-Douglas Digital</p>
-        </Col>
-      </Row>
-      <Row>
-        <Col className='text-center'>
-          <p>© 2023 Wallen-Douglas Digital</p>
-        </Col>
-      </Row> */}
             </Container>
             <CTABar />
             <ServiceBand />

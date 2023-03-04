@@ -5,8 +5,6 @@
 
 .custom-container {
     width: 100%;
-    /* border-left: 126px solid #080C59;
-    border-right: 126px solid #080C59; */
 }
 
 /* Header */
@@ -14,8 +12,6 @@
 .logo {
     width: 99px;
     height: 98.33px;
-    /* margin: 0 20px; */
-    /* margin-left: 126px; */
 }
 
 .padded-navbar {
@@ -51,8 +47,8 @@
     font-weight: bold;
     position: relative;
     text-decoration: none;
-    /* margin-left: 90px; */
 }
+
 .custom-nav-link:hover::after {
     content: "";
     position: absolute;
@@ -82,7 +78,6 @@
     font-size: 20px !important;
     font-weight: bold !important;
     border-color: #E2DDD7 !important;
-    /* margin-right: 126px; */
 }
 
 .custom-button:hover {
@@ -91,24 +86,7 @@
     box-shadow: 5px 10px 5px 2px rgba(0, 0, 0, .3) inset !important;
 }
 
-/* .custom-button {
-    background-color: #8C230B;
-    color: #E2DDD7;
-    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .3);
-    width: 264px;
-    height: 58px;
-    border-radius: 5px;
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    border: 1px #E2DDD7;
-}
 
-.custom-button:hover {
-    background-color: #80B2F2;
-    color: #080C59;
-    box-shadow: 5px 10px 5px 2px rgba(0, 0, 0, .3) inset;
-} */
 
 /* Footer */
 .footer-container {
@@ -125,7 +103,6 @@
 .custom-footer-pad {
     padding-left: 126px;
     padding-right: 126px;
-    /* padding-top: 50px; */
 }
 
 .custom-row {
@@ -193,14 +170,11 @@ h2 {
     width: 562px;
     height: 659px;
     object-fit: cover;
-    /* padding: 50px;
-    padding-top: 50px; */
 }
 
 .custom-col-pad-left {
     padding-left: 126px;
     padding-right: 60px;
-    /* padding-top: 50px; */
 }
 
 .custom-margin {
@@ -223,14 +197,12 @@ h2 {
     height: 108px;
     width: 100%;
     background-color: #E2DDD7;
-    /* margin-left: 126px; */
-    /* padding-left: 126px; */
     display: flex;
     align-items: center;
     justify-content: space-around;
-  }
-  
-  .cta-bar p {
+}
+
+.cta-bar p {
     text-align: left;
     margin: 0;
     color: #080C59;
@@ -240,9 +212,9 @@ h2 {
     /* for Safari/Chrome */
     text-stroke: 1.5px #080C59;
     /* for other browsers */
-  }
-  
-  /* Service Band */
+}
+
+/* Service Band */
 
 .service-band {
     background-color: #80B2F2;
@@ -256,12 +228,16 @@ h2 {
     font-family: 'Aboreto', cursive;
     font-size: 40px;
     color: #260502;
-    margin-right: 126px;
     -webkit-text-stroke: 2px #260502;
     /* for Safari/Chrome */
     text-stroke: 2px #260502;
     /* for other browsers */
     padding-bottom: 50px;
+}
+
+.service-band-custom-margin {
+    margin-left: 126px;
+    margin-right: 126px;
 }
 
 .service-band-body {
@@ -272,3 +248,47 @@ h2 {
     margin-right: 126px;
     padding-bottom: 50px;
 }
+
+.service-band .grid-button {
+    width: 265px;
+    height: 213px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px !important;
+    background-color: #E2DDD7;
+    color:#080C59;
+    border: none;
+    border-radius: 0;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.service-band .grid-button:hover {
+    background-color: #080C59;
+    color: #E2DDD7;
+}
+
+.service-band .grid-button-content {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.service-band .grid-button-content h3 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+@media (min-width: 768px) {
+    .service-band .grid-button {
+        width: 265px;
+        height: 213px;
+        margin: 20px;
+    }
+}
+
