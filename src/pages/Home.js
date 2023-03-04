@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import CTABar from "../components/CTABar.js";
 import ServiceBand from "../components/ServiceBand.js";
+import Testimonials from "../components/Testimonials.js";
 import hero from "../home_hero.jpg";
 import "../styles.css";
 
@@ -35,6 +36,7 @@ function Home() {
             </Container>
             <CTABar />
             <ServiceBand />
+            <Testimonials />
         </Row>
     );
 }
