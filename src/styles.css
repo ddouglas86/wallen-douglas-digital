@@ -124,6 +124,10 @@ h2 {
     color: #080C59;
 }
 
+.custom-footer-margin {
+    margin-bottom: 30px;
+}
+
 /* CTA Band */
 
 .custom-cta {

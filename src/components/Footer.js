@@ -11,10 +11,10 @@ function Footer() {
                     <Row>
                         <img src={logo} alt='Wallen-Douglas Digital logo' className='mx-auto img-fluid' style={{ maxWidth: "100%", height: "auto", width: "126px" }} />
                     </Row>
-                    <Row className='company-name'>
+                    <Row className='company-name custom-footer-margin'>
                         <p>Wallen-Douglas<br />Digital</p>
                     </Row>
-                    <Row className='d-flex justify-content-center'>
+                    <Row className='d-flex justify-content-center custom-footer-margin'>
                         <Button className='custom-button'>Get In Touch</Button>
                     </Row>
                     <Row>
