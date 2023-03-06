@@ -18,7 +18,7 @@ function Footer() {
                         <Button className='custom-button'>Get In Touch</Button>
                     </Row>
                     <Row>
-                        <h2>Unleashing Business Potential, One Digital Touchpoint at a Time.</h2>
+                        <h2 className='subheader-bold-blue'>Unleashing Business Potential, One Digital Touchpoint at a Time.</h2>
                         {/* <p>© 2023 Wallen-Douglas Digital</p> */}
                     </Row>
                 </Col>
