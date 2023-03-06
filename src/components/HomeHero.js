@@ -6,16 +6,16 @@ import "../styles.css";
 function HomeHero() {
     return (
 
-        <Container fluid={true} className="home-hero" style={{ marginTop: '11vh' }}>
+        <Container fluid={true} className="home-hero" style={{ marginTop: '130px' }}>
             <Col md={4} className='custom-col-pad-left'>
-                <Row className='home-hero-main-text'>
+                <Row className='header-text-bold-cream'>
                     <p>Unlocking Business Growth through Digital Innovation</p>
                 </Row>
                 <Row className='body-copy-bold'>
                     <p>Experience exponential business growth through our innovative and customized digital services, tailored to your unique needs.</p>
                 </Row>
                 <Row>
-                    <Button className='custom-button mx-auto'>Get In Touch</Button>
+                    <Button className='custom-button'>Get In Touch</Button>
                 </Row>
             </Col>
             <Col md={4} className='custom-col-pad-center'>

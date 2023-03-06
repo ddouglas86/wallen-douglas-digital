@@ -21,7 +21,7 @@ function Testimonials() {
         <Row className="testimonials-container-row">
             <Col md={4} className="text-center">
                 <p className='body-copy-bold-blue'>Alisa Maclin</p>
-                <p className='subheader-regular'>Chief Marketing Officer, Developer Marketing | IBM</p>
+                <p className='subheader-regular'>CMO, Developer Marketing | IBM</p>
                 <img src={Alisa} className="img-thumb"></img>
                 <p className="body-copy-regular-blue">“Corie is a true leader in digital marketing. Highly skilled, his approach is focused on business results, and best action to achieve both short and long term goals. Corie is not afraid to ask tough questions, and crawl through data to get to the root cause to ensure that the actions he takes effectively address the issue/opportunity. When we worked together I viewed Corie as a key member not only of our performance marketing team but of our strategy team as well.”</p>
             </Col>

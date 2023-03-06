@@ -13,7 +13,7 @@ function Header() {
                 <Navbar.Brand>
                     <span className='company-name'>Wallen-Douglas<br/> Digital</span></Navbar.Brand>
                 <Nav className='right-padding'>
-                    <Nav.Link href='#services'><span className='custom-nav-link mr-3'>Services</span></Nav.Link>
+                    <Nav.Link href='services'><span className='custom-nav-link mr-3'>Services</span></Nav.Link>
                     <Nav.Link href='#portfolio'><span className='custom-nav-link mr-3'>Portfolio</span></Nav.Link>
                     <Nav.Link href='#about'><span className='custom-nav-link mr-3'>About Us</span></Nav.Link>
                     <Nav.Link href='#learn'><span className='custom-nav-link'>Learn</span></Nav.Link>
