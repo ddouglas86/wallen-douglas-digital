@@ -629,11 +629,11 @@
     padding-top: 20px;
   }
 
-  .our-approach-row .our-approach-img-col {
+  .our-approach-row .quad-band-img-col {
     padding: 0;
   }
   
-  .our-approach-img {
+  .quad-band-img {
     height: 394px;
     width: 100%;
     object-fit: cover;
@@ -641,4 +641,25 @@
 
   .fifty-top-margin{
     margin-top: 50px;
+  }
+
+  /* About Band */
+
+  .quad-band-row {
+    height: 394px;
+  }
+
+  .row.quad-band-row p{
+    margin-left: 108px;
+    margin-right: 108px;
+  }
+
+  .row.quad-band-row h2{
+    margin-left: 108px;
+    margin-right: 108px;
+    padding-top: 20px;
+  }
+
+  .quad-band-row .quad-band-img-col {
+    padding: 0;
   }

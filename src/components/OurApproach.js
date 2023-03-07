@@ -26,8 +26,8 @@ function OurApproach() {
           </Col>
         </Row>
         <Row className="our-approach-row">
-        <Col md={6} className="our-approach-img-col">
-            <img src={Fernie} alt='iPhone with Texas 4000 website image' className='our-approach-img'/>
+        <Col md={6} className="quad-band-img-col">
+            <img src={Fernie} alt='iPhone with Texas 4000 website image' className='quad-band-img'/>
           </Col>
           <Col md={6} className='top-padding cream-background'>
             <h2 className="body-copy-bold-blue fifty-top-margin">Benefits of using us for your digital strategy</h2>
