@@ -8,10 +8,10 @@ function Header() {
         <Navbar sticky='top'>
             <Container fluid={true} className='p-0 navbars'>
                 <Navbar.Brand className='padded-navbar'>
-                    <img src={logo} alt='Wallen-Douglas Digital logo' className='logo'/>
+                    <a href='/'><img src={logo} alt='Wallen-Douglas Digital logo' className='logo'/></a>
                 </Navbar.Brand>
                 <Navbar.Brand>
-                    <span className='company-name'>Wallen-Douglas<br/> Digital</span></Navbar.Brand>
+                <a href='/' className='no-link-decoration'><span className='company-name'>Wallen-Douglas<br/> Digital</span></a></Navbar.Brand>
                 <Nav className='right-padding'>
                     <Nav.Link href='services'><span className='custom-nav-link mr-3'>Services</span></Nav.Link>
                     <Nav.Link href='#portfolio'><span className='custom-nav-link mr-3'>Portfolio</span></Nav.Link>

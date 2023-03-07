@@ -35,7 +35,7 @@ function ServiceBand() {
         <Col md={6}>
           <p className='service-band-header service-band-custom-margin'>Boosting Your Digital Success with Tailored SEO, UX, Digital Strategy, and Analytics Services.</p>
           <p className='service-band-body service-band-custom-margin'>Our comprehensive selection of digital services will help you achieve your online goals and reach your target audience effectively, driving measurable results and boosting your overall digital success.</p>
-          <Button className='custom-button service-band-custom-margin'>Explore Services</Button>
+          <Button href='#' className='custom-button service-band-custom-margin'><p className='explore-btn-margin'>Explore Services</p></Button>
         </Col>
       </Row>
     </Container>
