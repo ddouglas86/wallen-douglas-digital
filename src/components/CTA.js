@@ -4,7 +4,7 @@ import "../styles.css";
 
 function CTA() {
   return (
-    <Container fluid={true} className="custom-cta">
+    <Container fluid={true} className="custom-cta dark-blue-background">
       <Row>
         <Col className='text-center header-text-bold-cream custom-block-spacing'>
           <p>Unleash Potential</p>

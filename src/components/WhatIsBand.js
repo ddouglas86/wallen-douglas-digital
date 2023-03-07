@@ -7,7 +7,7 @@ function WhatIsBand() {
     return (
       <Container fluid={true} className="what-is-band">
         <Row className="what-is-band-row">
-          <Col md={6} className='top-padding'>
+          <Col md={6} className='top-padding light-blue-background'>
             <h2 className="body-copy-bold-red">What is digital strategy</h2>
             <p className="body-copy-red">Digital strategy is a comprehensive plan that outlines a business's goals, target audience, and tactics for maximizing success in the digital space, utilizing a combination of technologies, platforms, and channels to achieve desired outcomes.</p>
             <h2 className="body-copy-bold-red">Why is it important?</h2>

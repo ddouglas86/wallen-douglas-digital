@@ -4,7 +4,7 @@ import "../styles.css";
 
 function ServicesHero() {
   return (
-    <Container fluid={true} className="custom-cta" style={{ marginTop: '130px' }}>
+    <Container fluid={true} className="custom-cta dark-blue-background" style={{ marginTop: '130px' }}>
       <Row>
         <Col className='text-center header-text-bold-cream services-hero-bottom-margin services-hero-header-margin'>
           <p>Unlock Your Online Success with Our Digital Strategy Services</p>
