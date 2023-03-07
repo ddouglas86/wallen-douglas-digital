@@ -2,17 +2,17 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../styles.css";
 
-function ServicesHero() {
+function AboutHero() {
   return (
     <Container fluid={true} className="custom-cta dark-blue-background" style={{ marginTop: '130px' }}>
       <Row>
         <Col className='text-center header-text-bold-cream cta-hero-bottom-margin cta-hero-header-margin'>
-          <p>Unlock Your Online Success with Our Digital Strategy Services</p>
+          <p>About us</p>
         </Col>
         </Row>
         <Row>
         <Col className='text-center body-copy-bold cta-hero-body-margin cta-hero-bottom-margin'>
-          <p>Leveraging technology and data to create a customized digital strategy that drives growth and achieves your business goals.</p>
+          <p>Welcome to Wallen-Douglas Digital, where your online success is our top priority. Whether you're looking to improve your search engine visibility, drive more traffic to your website, or increase conversions, we are here to help. </p>
         </Col>
       </Row>
       <Row>
@@ -24,4 +24,4 @@ function ServicesHero() {
   );
 }
 
-export default ServicesHero;
+export default AboutHero;

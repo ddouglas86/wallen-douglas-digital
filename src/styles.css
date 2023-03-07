@@ -552,26 +552,27 @@
 }
 
 /* Services Hero */
+/* About Hero */
 
-.services-hero-body-margin {
+.cta-hero-body-margin {
     margin-left: 437px;
     margin-right: 437px;
 }
 
 @media screen and (max-width: 1440px) {
-    .services-hero-body-margin {
+    .cta-hero-body-margin {
         margin-left: 300px;
         margin-right: 300px;
     }
 }
 
-.services-hero-header-margin {
+.cta-hero-header-margin {
     margin-left: 235px;
     margin-right: 235px;
     padding-top: 50px;
 }
 
-.services-hero-bottom-margin {
+.cta-hero-bottom-margin {
     margin-bottom: 50px;
 }
 

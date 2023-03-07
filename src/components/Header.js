@@ -15,7 +15,7 @@ function Header() {
                 <Nav className='right-padding'>
                     <Nav.Link href='services'><span className='custom-nav-link mr-3'>Services</span></Nav.Link>
                     <Nav.Link href='#portfolio'><span className='custom-nav-link mr-3'>Portfolio</span></Nav.Link>
-                    <Nav.Link href='#about'><span className='custom-nav-link mr-3'>About Us</span></Nav.Link>
+                    <Nav.Link href='about'><span className='custom-nav-link mr-3'>About Us</span></Nav.Link>
                     <Nav.Link href='#learn'><span className='custom-nav-link'>Learn</span></Nav.Link>
                     <Button className='custom-button'>Get In Touch</Button>
                 </Nav>  
