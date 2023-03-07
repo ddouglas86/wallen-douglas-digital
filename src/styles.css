@@ -2,6 +2,19 @@
     margin: 0;
     padding: 0;
 } */
+
+.light-blue-background {
+    background-color: #80B2F2;
+}
+
+.dark-blue-background {
+    background-color: #080C59;
+}
+
+.cream-background {
+    background-color: #E2DDD7;
+}
+
 .header-text-regular {
     font-family: 'Aboreto', cursive;
     font-size: 40px;
@@ -28,6 +41,10 @@
 .body-copy-regular-blue {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
+    -webkit-text-stroke: 1px #080C59;
+    /* for Safari/Chrome */
+    text-stroke: 1px #080C59;
+    /* for other browsers */
     color: #080C59;
 }
 
@@ -37,17 +54,21 @@
     }
 }
 
-.body-copy-regular-cream {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
-    color: #E2DDD7;
-}
-
 .body-copy-bold-blue {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: #080C59;
+}
+
+.body-copy-cream {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    -webkit-text-stroke: 1px #E2DDD7;
+    /* for Safari/Chrome */
+    text-stroke: 1px #E2DDD7;
+    /* for other browsers */
+    color: #E2DDD7;
 }
 
 .body-copy-bold-cream {
@@ -256,7 +277,6 @@
 /* CTA Band */
 
 .custom-cta {
-    background-color: #080C59;
     color: #E2DDD7;
     height: 487px;
     display: flex;
@@ -559,16 +579,16 @@
 
 .what-is-band-row {
     height: 406px;
-    background-color: #80B2F2;
   }
   
-  .what-is-img-col {
+.what-is-band-row .what-is-img-col {
     padding: 0;
   }
   
   .what-is-img {
     height: 406px;
     width: 100%;
+    object-fit: cover;
   }
 
   .row.what-is-band-row p{
@@ -583,4 +603,41 @@
 
   .top-padding{
     padding-top: 20px;
+  }
+
+  /* Our Approach */
+
+  .our-approach-row {
+    height: 394px;
+  }
+
+  .row.our-approach-row p{
+    margin-left: 108px;
+    margin-right: 108px;
+    padding-top: 20px;
+  }
+
+  .row.our-approach-row li{
+    margin-left: 95px;
+    padding-top: 20px;
+  }
+
+  .row.our-approach-row h2{
+    margin-left: 108px;
+    margin-right: 108px;
+    padding-top: 20px;
+  }
+
+  .our-approach-row .our-approach-img-col {
+    padding: 0;
+  }
+  
+  .our-approach-img {
+    height: 394px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .fifty-top-margin{
+    margin-top: 50px;
   }
