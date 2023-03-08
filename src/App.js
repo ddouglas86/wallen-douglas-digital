@@ -1,7 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState, useEffect } from 'react';
 import Home from "./pages/Home.js";
 import Services from "./pages/Services.js";
+import Digital from "./pages/Digital.js";
 // import Portfolio from "./pages/Portfolio.js";
 import About from "./pages/About.js";
 // import Learn from "./pages/Learn.js";
@@ -12,15 +14,24 @@ import CTA from "./components/CTA.js";
 import "./styles.css";
 
 function App() {
+//     const [headerHeight, setHeaderHeight] = useState(0);
+
+//   useEffect(() => {
+//     const header = document.querySelector('header');
+//     setHeaderHeight(header.offsetHeight);
+//   }, []);
+
     return (
         <Router>
             <Header />
-            <div>
+            <div >
                 <Routes>
                     <Route path="/"
                         element={<Home />}
                     />
                     <Route path="services" element={<Services />}
+                    />
+                    <Route path="services/digital-strategy" element={<Digital />}
                     />
                     {/* <Route path="portfolio" element={<Portfolio />}
                     /> */}
