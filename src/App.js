@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Home from "./pages/Home.js";
 import Services from "./pages/Services.js";
 import Digital from "./pages/Digital.js";
+import SEO from "./pages/SEO.js";
 // import Portfolio from "./pages/Portfolio.js";
 import About from "./pages/About.js";
 // import Learn from "./pages/Learn.js";
@@ -32,6 +33,8 @@ function App() {
                     <Route path="services" element={<Services />}
                     />
                     <Route path="services/digital-strategy" element={<Digital />}
+                    />
+                    <Route path="services/search-engine-optimization" element={<SEO />}
                     />
                     {/* <Route path="portfolio" element={<Portfolio />}
                     /> */}
