@@ -1,13 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "../styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Heather from "../Heather.png";
-import Dan from "../Dan.png";
-import Alisa from '../Alisa.png';
-import Angela from '../Angela.png';
-import Nathan from '../Nathan.png';
-import Ellen from '../Ellen.png';
+import Heather from "../../images/Testimonials/Heather.png";
+import Dan from "../../images/Testimonials/Dan.png";
+import Alisa from '../../images/Testimonials/Alisa.png';
+import Angela from '../../images/Testimonials/Angela.png';
+import Nathan from '../../images/Testimonials/Nathan.png';
+import Ellen from '../../images/Testimonials/Ellen.png';
 
 
 function Testimonials() {

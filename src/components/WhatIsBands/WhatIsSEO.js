@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "../styles.css";
-import SEO1 from '../SEO1.png';
+import SEO1 from '../../images/SEO1.png';
 
 function WhatIsSEO() {
     return (

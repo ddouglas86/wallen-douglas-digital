@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "../styles.css";
-import TX4K from '../TX4KPortfolio.png';
+import TX4K from '../../images/TX4KPortfolio.png';
 
 function WhatIsUX() {
     return (
