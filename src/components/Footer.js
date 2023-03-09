@@ -24,24 +24,24 @@ function Footer() {
                 </Col>
                 <Col md={7} className='text-center'>
                     <Row className='custom-row'>
-                        <Col md={4}><span href="#services" className='custom-nav-link'>Services</span></Col>
-                        <Col md={4}><span href="#strategy" className='custom-nav-link'>Digital Strategy</span></Col>
-                        <Col md={4}><span href="#learn" className='custom-nav-link'>Learn</span></Col>
+                        <Col md={4}><a href="#services" className='custom-nav-link'>Services</a></Col>
+                        <Col md={4}><a href="services/digital-strategy" className='custom-nav-link'>Digital Strategy</a></Col>
+                        <Col md={4}><a href="#learn" className='custom-nav-link'>Learn</a></Col>
                     </Row>
                     <Row className='custom-row'>
-                        <Col md={4}><span href="#about" className='custom-nav-link'>About Us</span></Col>
-                        <Col md={4}><span href="#ux" className='custom-nav-link'>UX Design</span></Col>
-                        <Col md={4}><span href="#style" className='custom-nav-link'>Style Guide</span></Col>
+                        <Col md={4}><a href="about" className='custom-nav-link'>About Us</a></Col>
+                        <Col md={4}><a href="services/user-experience-design" className='custom-nav-link'>UX Design</a></Col>
+                        <Col md={4}><a href="#style" className='custom-nav-link'>Style Guide</a></Col>
                     </Row>
                     <Row className='custom-row'>
-                        <Col md={4}><span href="#portfolio" className='custom-nav-link'>Portfolio</span></Col>
-                        <Col md={4}><span href="#seo" className='custom-nav-link'>SEO</span></Col>
-                        <Col md={4}><span href="#terms" className='custom-nav-link'>Terms of Service</span></Col>
+                        <Col md={4}><a href="#portfolio" className='custom-nav-link'>Portfolio</a></Col>
+                        <Col md={4}><a href="services/search-engine-optimization" className='custom-nav-link'>SEO</a></Col>
+                        <Col md={4}><a href="#terms" className='custom-nav-link'>Terms of Service</a></Col>
                     </Row>
                     <Row className='custom-row'>
-                        <Col md={4}><span href="#security" className='custom-nav-link'>Security</span></Col>
-                        <Col md={4}><span href="#analytics" className='custom-nav-link'>Analytics & Reporting</span></Col>
-                        <Col md={4}><span href="#privacy" className='custom-nav-link'>Privacy Policy</span></Col>
+                        <Col md={4}><a href="#security" className='custom-nav-link'>Security</a></Col>
+                        <Col md={4}><a href="#analytics" className='custom-nav-link'>Analytics & Reporting</a></Col>
+                        <Col md={4}><a href="#privacy" className='custom-nav-link'>Privacy Policy</a></Col>
                     </Row>
                 </Col>
 
