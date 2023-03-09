@@ -34,13 +34,13 @@ function App() {
                     />
                     <Route path="services" element={<Services />}
                     />
-                    <Route path="services/digital-strategy" element={<Digital />}
+                    <Route path="/digital-strategy" element={<Digital />}
                     />
-                    <Route path="services/search-engine-optimization" element={<SEO />}
+                    <Route path="search-engine-optimization" element={<SEO />}
                     />
-                    <Route path="services/user-experience-design" element={<UX />}
+                    <Route path="/user-experience-design" element={<UX />}
                     />
-                    <Route path="services/analytics-reporting" element={<Analytics />}
+                    <Route path="/analytics-reporting" element={<Analytics />}
                     />
                     {/* <Route path="portfolio" element={<Portfolio />}
                     /> */}
