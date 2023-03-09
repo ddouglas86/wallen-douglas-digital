@@ -4,6 +4,7 @@ import CTABar from "../components/CTABar.js";
 import SEOApproach from "../components/OurApproach/SEOApproach.js";
 import SEOHero from "../components/HeroSections/SEOHero.js";
 import WhatIsSEO from "../components/WhatIsBands/WhatIsSEO.js";
+import MiniLBTestimonial from "../components/Testimonials/MiniLBlueTestimonial.js";
 import "../styles.css";
 
 
@@ -13,7 +14,8 @@ function SEO() {
             <SEOHero /> 
             <WhatIsSEO /> 
             <CTABar />
-            <SEOApproach /> 
+            <SEOApproach />
+            <MiniLBTestimonial />
         </Row>
     );
 }

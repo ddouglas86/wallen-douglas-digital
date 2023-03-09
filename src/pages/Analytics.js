@@ -4,6 +4,7 @@ import CTABar from "../components/CTABar.js";
 import AnalyticsApproach from "../components/OurApproach/AnalyticsApproach.js";
 import AnalyticsHero from "../components/HeroSections/AnalyticsHero.js";
 import WhatIsAnalytics from "../components/WhatIsBands/WhatIsAnalytics.js";
+import MiniLBTestimonial from "../components/Testimonials/MiniLBlueTestimonial.js";
 import "../styles.css";
 
 
@@ -13,7 +14,8 @@ function Analytics() {
             <AnalyticsHero /> 
             <WhatIsAnalytics /> 
             <CTABar />
-            <AnalyticsApproach /> 
+            <AnalyticsApproach />
+            <MiniLBTestimonial />
         </Row>
     );
 }

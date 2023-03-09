@@ -27,6 +27,12 @@
     color: #E2DDD7;
 }
 
+.header-text-red {
+    font-family: 'Aboreto', cursive;
+    font-size: 40px;
+    color: #260502;
+}
+
 .header-text-bold-cream {
     font-family: 'Aboreto', cursive;
     font-size: 40px;
@@ -137,6 +143,18 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
     color: #080C59;
+}
+
+.subheader-red {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #260502;
+}
+
+@media screen and (max-width: 1440px) {
+    .subheader-red {
+        font-size: 20px;
+    }
 }
 
 .subheader-cream {
