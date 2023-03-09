@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import hero from "../home_hero.jpg";
-import "../styles.css";
+import hero from "../../images/home_hero.jpg";
 
 function HomeHero() {
     return (
