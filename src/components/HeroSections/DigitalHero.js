@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import "../styles.css";
+// import "../styles.css";
 
 function DigitalHero() {
   return (
@@ -11,7 +11,7 @@ function DigitalHero() {
         </Col>
         </Row>
         <Row>
-        <Col className='text-center body-copy-bold cta-hero-body-margin cta-hero-bottom-margin'>
+        <Col className='text-center body-copy-cream cta-hero-body-margin cta-hero-bottom-margin'>
           <p>Leveraging technology and data to create a customized digital strategy that drives growth and achieves your business goals.</p>
         </Col>
       </Row>

@@ -4,7 +4,7 @@ import CTABar from "../components/CTABar.js";
 import OurApproach from "../components/DigitalApproach.js";
 import ServiceBand from "../components/ServiceBand.js";
 import ServicesHero from "../components/ServicesHero.js";
-import WhatIsBand from "../components/WhatIsDigital.js";
+import WhatIsBand from "../components/WhatIsBands/WhatIsDigital.js";
 import "../styles.css";
 
 
