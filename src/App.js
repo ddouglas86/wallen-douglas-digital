@@ -6,6 +6,7 @@ import Services from "./pages/Services.js";
 import Digital from "./pages/Digital.js";
 import SEO from "./pages/SEO.js";
 import UX from "./pages/UX.js";
+import Analytics from "./pages/Analytics.js";
 // import Portfolio from "./pages/Portfolio.js";
 import About from "./pages/About.js";
 // import Learn from "./pages/Learn.js";
@@ -38,6 +39,8 @@ function App() {
                     <Route path="services/search-engine-optimization" element={<SEO />}
                     />
                     <Route path="services/user-experience-design" element={<UX />}
+                    />
+                    <Route path="services/analytics-reporting" element={<Analytics />}
                     />
                     {/* <Route path="portfolio" element={<Portfolio />}
                     /> */}

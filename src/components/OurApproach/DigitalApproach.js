@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import DSApproach from '../../images/DSApproach.png';
 
-function OurApproach() {
+function DigitalApproach() {
     return (
       <Container fluid={true}>
         <Row className="our-approach-row">
@@ -43,4 +43,4 @@ function OurApproach() {
     );
   }
 
-export default OurApproach;
+export default DigitalApproach;

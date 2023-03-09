@@ -40,7 +40,7 @@ function Footer() {
                     </Row>
                     <Row className='custom-row'>
                         <Col md={4}><a href="#security" className='custom-nav-link'>Security</a></Col>
-                        <Col md={4}><a href="#analytics" className='custom-nav-link'>Analytics & Reporting</a></Col>
+                        <Col md={4}><a href="services/analytics-reporting" className='custom-nav-link'>Analytics & Reporting</a></Col>
                         <Col md={4}><a href="#privacy" className='custom-nav-link'>Privacy Policy</a></Col>
                     </Row>
                 </Col>
