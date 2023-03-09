@@ -31,10 +31,10 @@ function DigitalApproach() {
           <Col md={6} className='top-padding cream-background'>
             <h2 className="body-copy-bold-blue fifty-top-margin">Benefits of using us for your digital strategy</h2>
             <ul>
-            <li className="body-copy-regular-blue">Assessment of Current Digital Presence</li>
-            <li className="body-copy-regular-blue">Target Audience Analysis</li>
-            <li className="body-copy-regular-blue">Competitive Analysis</li>
-            <li className="body-copy-regular-blue">Digital Channels and Tactics Recommendations</li>
+            <li className="body-copy-regular-blue">Expertise and Experience</li>
+            <li className="body-copy-regular-blue">Customized Solutions for Your Business</li>
+            <li className="body-copy-regular-blue">Data-Driven Recommendations</li>
+            <li className="body-copy-regular-blue">Transparent Reporting and Communication</li>
             </ul>
           </Col>
         </Row>
