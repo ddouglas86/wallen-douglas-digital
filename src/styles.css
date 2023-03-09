@@ -38,6 +38,16 @@
     }
 }
 
+.header-text-bold-blue {
+    font-family: 'Aboreto', cursive;
+    font-size: 40px;
+    -webkit-text-stroke: 2px #080C59;
+    /* for Safari/Chrome */
+    text-stroke: 2px #080C59;
+    /* for other browsers */
+    color: #080C59;
+}
+
 .header-text-bold-red {
     font-family: 'Aboreto', cursive;
     font-size: 40px;
@@ -589,6 +599,7 @@
     .cta-hero-body-margin {
         margin-left: 300px;
         margin-right: 300px;
+        font-size: 20px;
     }
 }
 
@@ -596,6 +607,14 @@
     margin-left: 235px;
     margin-right: 235px;
     padding-top: 50px;
+}
+
+@media screen and (max-width: 1440px) {
+    .cta-hero-header-margin {
+        margin-left: 108px;
+        margin-right: 108px;
+        padding-top: 20px;
+    }
 }
 
 .cta-hero-bottom-margin {
