@@ -1,7 +1,7 @@
 import React from "react";
 import { Row } from "react-bootstrap";
 import CTABar from "../components/CTABar.js";
-import UXApproach from "../components/UXApproach.js";
+import UXApproach from "../components/OurApproach/UXApproach.js";
 import UXHero from "../components/HeroSections/UXHero.js";
 import WhatIsUX from "../components/WhatIsUX.js";
 import "../styles.css";

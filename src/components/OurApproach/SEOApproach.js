@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "../styles.css";
-import SEO2 from '../SEO2.png';
+import SEO2 from '../../images/SEO2.png';
+
 
 function SEOApproach() {
     return (

@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "../styles.css";
-import Prototype from '../MobilePrototype.png';
+import Prototype from '../../images/MobilePrototype.png';
 
 function UXApproach() {
     return (
