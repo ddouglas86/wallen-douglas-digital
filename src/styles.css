@@ -21,6 +21,12 @@
     color: #080C59;
 }
 
+.header-text-cream {
+    font-family: 'Aboreto', cursive;
+    font-size: 40px;
+    color: #E2DDD7;
+}
+
 .header-text-bold-cream {
     font-family: 'Aboreto', cursive;
     font-size: 40px;
@@ -131,6 +137,18 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
     color: #080C59;
+}
+
+.subheader-cream {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #E2DDD7;
+}
+
+@media screen and (max-width: 1440px) {
+    .subheader-cream {
+        font-size: 20px;
+    }    
 }
 
 .subheader-bold-blue {
@@ -557,8 +575,8 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    background-color: #E2DDD7;
-    color: #080C59;
+    /* background-color: #E2DDD7;
+    color: #080C59; */
 }
 
 .testimonials-container-row {
