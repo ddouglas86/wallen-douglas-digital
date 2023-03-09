@@ -2,9 +2,9 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import '../styles.css';
 
-function ServiceBand() {
+function ServiceBandDark() {
   return (
-    <Container fluid={true} className='service-band light-blue-background'>
+    <Container fluid={true} className='service-band dark-blue-background'>
       <Row>
         <Col md={5} className='d-flex justify-content-center align-items-center flex-wrap'>
           <Button href='/digital-strategy' className='grid-button mb-3'>
@@ -33,8 +33,8 @@ function ServiceBand() {
           </Button>
         </Col>
         <Col md={6}>
-          <p className='service-band-header-red service-band-custom-margin'>Boosting Your Digital Success with Tailored SEO, UX, Digital Strategy, and Analytics Services.</p>
-          <p className='service-band-body body-copy-bold-red service-band-custom-margin'>Our comprehensive selection of digital services will help you achieve your online goals and reach your target audience effectively, driving measurable results and boosting your overall digital success.</p>
+          <p className='service-band-header-cream service-band-custom-margin'>Boosting Your Digital Success with Tailored SEO, UX, Digital Strategy, and Analytics Services.</p>
+          <p className='service-band-body body-copy-bold-cream service-band-custom-margin'>Our comprehensive selection of digital services will help you achieve your online goals and reach your target audience effectively, driving measurable results and boosting your overall digital success.</p>
           <Button href='#' className='custom-button service-band-custom-margin'><p className='explore-btn-margin'>Explore Services</p></Button>
         </Col>
       </Row>
@@ -42,5 +42,5 @@ function ServiceBand() {
   );
 }
 
-export default ServiceBand;
+export default ServiceBandDark;
 
