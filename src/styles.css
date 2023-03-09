@@ -671,13 +671,14 @@
 
   .row.our-approach-row li{
     margin-left: 95px;
-    padding-top: 20px;
+    padding-bottom: 10px;
   }
 
   .row.our-approach-row h2{
     margin-left: 108px;
     margin-right: 108px;
     padding-top: 20px;
+    padding-bottom: 25px;
   }
 
   .our-approach-row .quad-band-img-col {
