@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "../styles.css";
-import Fernie from '../Fernie.png';
+import DSApproach from '../../images/DSApproach.png';
 
 function OurApproach() {
     return (
@@ -27,7 +26,7 @@ function OurApproach() {
         </Row>
         <Row className="our-approach-row">
         <Col md={6} className="quad-band-img-col">
-            <img src={Fernie} alt='iPhone with Texas 4000 website image' className='quad-band-img'/>
+            <img src={DSApproach} alt='iPhone with Texas 4000 website image' className='quad-band-img'/>
           </Col>
           <Col md={6} className='top-padding cream-background'>
             <h2 className="body-copy-bold-blue fifty-top-margin">Benefits of using us for your digital strategy</h2>
