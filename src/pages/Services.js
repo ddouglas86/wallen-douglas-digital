@@ -1,19 +1,22 @@
 import React from "react";
 import { Row } from "react-bootstrap";
 import CTABar from "../components/CTABar.js";
-import OurApproach from "../components/OurApproach.js";
+import OurApproach from "../components/DigitalApproach.js";
+import ServiceBand from "../components/ServiceBand.js";
 import ServicesHero from "../components/ServicesHero.js";
-import WhatIsBand from "../components/WhatIsBand.js";
+import WhatIsBand from "../components/WhatIsDigital.js";
 import "../styles.css";
 
 
 function Services() {
     return (
         <Row>
-            <ServicesHero /> 
+            <ServiceBand />
+            {/* <ServicesHero /> 
             <WhatIsBand /> 
             <CTABar />
-            <OurApproach /> 
+            <OurApproach />  */}
+          
         </Row>
     );
 }
