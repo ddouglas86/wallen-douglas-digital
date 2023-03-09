@@ -4,6 +4,8 @@ import CTABar from "../components/CTABar.js";
 import UXApproach from "../components/OurApproach/UXApproach.js";
 import UXHero from "../components/HeroSections/UXHero.js";
 import WhatIsUX from "../components/WhatIsBands/WhatIsUX.js";
+import MiniDBTestimonial from "../components/Testimonials/MiniDBlueTestimonial.js";
+import ServiceBand from "../components/ServiceBand.js";
 import "../styles.css";
 
 
@@ -14,6 +16,8 @@ function UX() {
             <WhatIsUX /> 
             <CTABar />
             <UXApproach /> 
+            <MiniDBTestimonial />
+            <ServiceBand />
         </Row>
     );
 }

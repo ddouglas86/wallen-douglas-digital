@@ -11,7 +11,7 @@ import Ellen from '../../images/Testimonials/Ellen.png';
 
 function Testimonials() {
    return (
-     <Container fluid={true} className="testimonials-container">
+     <Container fluid={true} className="testimonials-container cream-background">
         <Row className="testimonials-container-header ">
             <Col md={12} className="text-center header-text-regular">
                 <p>Testimonials</p>

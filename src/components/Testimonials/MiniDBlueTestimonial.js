@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Dan from "../../images/Testimonials/Dan.png";
-import Alisa from '../../images/Testimonials/Alisa.png';
-import Ellen from '../../images/Testimonials/Ellen.png';
+import Shanna from "../../images/Testimonials/Shanna.jpeg";
+import Will from "../../images/Testimonials/Will.jpeg";
+import Greyson from "../../images/Testimonials/Greyson.jpeg";
+
 
 
 function MiniDBTestimonial() {
@@ -16,22 +17,22 @@ function MiniDBTestimonial() {
         </Row>
         <Row className="testimonials-container-row">
             <Col md={4} className="text-center">
-                <p className='body-copy-bold-cream'>Alisa Maclin</p>
-                <p className='subheader-cream'>CMO, Developer Marketing | IBM</p>
-                <img src={Alisa} className="img-thumb"></img>
-                <p className="body-copy-cream">“Corie is a true leader in digital marketing. Highly skilled, his approach is focused on business results, and best action to achieve both short and long term goals. Corie is not afraid to ask tough questions, and crawl through data to get to the root cause to ensure that the actions he takes effectively address the issue/opportunity. When we worked together I viewed Corie as a key member not only of our performance marketing team but of our strategy team as well.”</p>
+                <p className='body-copy-bold-cream'>Shanna Seyer</p>
+                <p className='subheader-cream'>Senior Instructional Designer | Stripe</p>
+                <img src={Shanna} className="img-thumb"></img>
+                <p className="body-copy-cream">“Corie and I worked on different teams; however, Corie is phenomenal to work with both professionally and personally. With Corie's expertise in Martech, he has been able to answer questions and provide solutions to those of us in user operations, ensuring that our customers have a stellar experience throughout their entire journey, not just pre-sale. Any company and team would be lucky to have him!”</p>
             </Col>
             <Col md={4} className="text-center">
-            <p className='body-copy-bold-cream'>Daniel Brockley</p>
-            <p className='subheader-cream'>Head of Content & Creative | TaxJar / Stripe</p>
-            <img src={Dan} className="img-thumb"></img>
-                <p className="body-copy-cream">“Corie is a savvy digital marketer who stays current on new tools and approaches, and is constantly testing and iterating on his ideas to make them better. Corie and I worked together on a website redesign where SEO was an important component, and he was a great partner through the process. He helped ensure that our site generated a high volume of qualified leads while also amplifying our brand and delivering a great user experience.”</p>
+            <p className='body-copy-bold-cream'>Greyson Curry</p>
+            <p className='subheader-cream'>Sales Development Representative | TaxJar</p>
+            <img src={Greyson} className="img-thumb"></img>
+                <p className="body-copy-cream">“The most collaborative and successful experiences I've had working on projects involving the sales team and marketing team have been when working with Corie. I was able to partner with Corie at TaxJar for two years where we were able to collaborate on a number of very exciting projects together. The most impressive part of working with Corie is his ability to see things from many perspectives quickly. Sales and Marketing are often coming from quite different viewpoints but I always felt Corie was able to quickly understand my view whenever we worked on a problem together. Even more impressive was his ability to find a satisfactory solution that met the needs of all involved. I believe empathy is one of his great strengths and it makes him very enjoyable to work with. I highly recommend Corie as a team member and a leader.”</p>
             </Col>
             <Col md={4} className="text-center">
-            <p className='body-copy-bold-cream'>Ellen Mamedov</p>
-            <p className='subheader-cream'>Global Director of SEO | IBM</p>
-            <img src={Ellen} className="img-thumb"></img>
-                <p className="body-copy-cream">“Wallen-Douglas Digital has been a great partner for our company. They have helped us to develop a digital strategy that has helped us to grow our business exponentially. We are very happy with the results and look forward to continuing to work with them in the future.”</p>
+            <p className='body-copy-bold-cream'>Will Ruppel</p>
+            <p className='subheader-cream'>Associate Director, Digital Product | SiriusXM</p>
+            <img src={Will} className="img-thumb"></img>
+                <p className="body-copy-cream">“I worked with Corie for a few years at IBM, and could always rely on him for his professionalism, attention to detail, and deep subject matter expertise. Going into a meeting with Corie, I always knew I was going to walk away with actionable and insightful information. On top of that, Corie's friendly demeanor and positive attitude made it a real pleasure to work together!”</p>
             </Col>
         </Row>
     </Container>

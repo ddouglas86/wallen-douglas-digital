@@ -5,6 +5,7 @@ import DigitalApproach from "../components/OurApproach/DigitalApproach.js";
 import DigitalHero from "../components/HeroSections/DigitalHero.js";
 import WhatIsDigital from "../components/WhatIsBands/WhatIsDigital.js";
 import MiniDBTestimonial from "../components/Testimonials/MiniDBlueTestimonial.js";
+import ServiceBand from "../components/ServiceBand.js";
 import "../styles.css";
 
 
@@ -16,6 +17,7 @@ function Digital() {
             <CTABar />
             <DigitalApproach /> 
             <MiniDBTestimonial />
+            <ServiceBand />
         </Row>
     );
 }
