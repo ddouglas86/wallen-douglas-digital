@@ -12,7 +12,7 @@ function CTABar() {
             </Row>
             <Row>
                 <Col>
-                    <Button className='custom-button mx-auto'>Book Consultation</Button>
+                <Button className='custom-button'><a href='/contact-us'>Book Consultation</a></Button>
                 </Col>
             </Row>
         </Container>

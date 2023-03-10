@@ -14,7 +14,7 @@ function HomeHero() {
                     <p>Experience exponential business growth through our innovative and customized digital services, tailored to your unique needs.</p>
                 </Row>
                 <Row>
-                    <Button className='custom-button'>Get In Touch</Button>
+                <Button className='custom-button'><a href='/contact-us'>Get In Touch</a></Button>
                 </Row>
             </Col>
             <Col md={4} className='custom-col-pad-center'>

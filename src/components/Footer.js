@@ -15,7 +15,7 @@ function Footer() {
                         <p>Wallen-Douglas<br />Digital</p>
                     </Row>
                     <Row className='d-flex justify-content-center custom-footer-margin'>
-                        <Button className='custom-button'>Get In Touch</Button>
+                    <Button className='custom-button'><a href='/contact-us'>Get In Touch</a></Button>
                     </Row>
                     <Row>
                         <h2 className='subheader-bold-blue'>Unleashing Business Potential, One Digital Touchpoint at a Time.</h2>

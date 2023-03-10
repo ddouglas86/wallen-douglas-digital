@@ -17,7 +17,7 @@ function Header() {
                     <Nav.Link href='#portfolio'><span className='custom-nav-link mr-3'>Portfolio</span></Nav.Link>
                     <Nav.Link href='about'><span className='custom-nav-link mr-3'>About Us</span></Nav.Link>
                     <Nav.Link href='#learn'><span className='custom-nav-link'>Learn</span></Nav.Link>
-                    <Button className='custom-button'>Get In Touch</Button>
+                    <Button className='custom-button'><a href='/contact-us'>Get In Touch</a></Button>
                 </Nav>  
             </Container>
         </Navbar>

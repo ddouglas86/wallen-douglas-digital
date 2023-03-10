@@ -17,7 +17,7 @@ function AnalyticsHero() {
       </Row>
       <Row>
         <Col className='text-center'>
-        <Button className='custom-button mx-auto cta-hero-bottom-margin'>Get In Touch</Button>
+        <Button className='custom-button mx-auto cta-hero-bottom-margin'><a href='/contact-us'>Get In Touch</a></Button>
         </Col>
       </Row>
     </Container>

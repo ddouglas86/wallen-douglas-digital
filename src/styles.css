@@ -292,7 +292,7 @@
 
 .custom-button {
     background-color: #8C230B !important;
-    color: #E2DDD7 !important;
+    /* color: #E2DDD7 !important; */
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .3) !important;
     width: 264px !important;
     height: 58px !important;
@@ -301,6 +301,11 @@
     font-size: 20px !important;
     font-weight: bold !important;
     border-color: #E2DDD7 !important;
+}
+
+.custom-button a {
+    text-decoration: none;
+    color: #E2DDD7;
 }
 
 @media screen and (max-width: 1440px) {

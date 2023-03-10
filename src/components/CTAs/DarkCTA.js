@@ -16,7 +16,7 @@ function DarkCTA() {
       </Row>
       <Row>
         <Col className='text-center'>
-        <Button className='custom-button mx-auto'>Get In Touch</Button>
+        <Button className='custom-button'><a href='/contact-us'>Get In Touch</a></Button>
         </Col>
       </Row>
     </Container>
