@@ -117,6 +117,13 @@
     color: #E2DDD7;
 }
 
+@media screen and (max-width: 1440px) {
+    .body-copy-bold-cream {
+        font-size: 18px;
+    }
+    
+}
+
 .body-copy-bold-red {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
@@ -298,7 +305,7 @@
 
 @media screen and (max-width: 1440px) {
     .custom-button {
-        width: 195px;
+        width: ;
     }
 }
 
@@ -765,4 +772,16 @@
 
   .quad-band-row .quad-band-img-col {
     padding: 0;
+  }
+
+  /* Contact Band */
+
+  .col-margin {
+    margin-left: 108px;
+    margin-right: 108px;
+  }
+
+  .col-text-margin {
+    margin-left: 190px;
+    margin-right: 190px;
   }

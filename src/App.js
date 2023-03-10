@@ -13,7 +13,7 @@ import About from "./pages/About.js";
 // import Whoops404 from "./pages/Whoops404.js";
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
-// import CTA from "./components/CTAs/DarkCTA.js";
+import ContactUs from "./pages/ContactUs.js";
 import "./styles.css";
 
 function App() {
@@ -41,6 +41,8 @@ function App() {
                     <Route path="/user-experience-design" element={<UX />}
                     />
                     <Route path="/analytics-reporting" element={<Analytics />}
+                    />
+                    <Route path="/contact-us" element={<ContactUs />}
                     />
                     {/* <Route path="portfolio" element={<Portfolio />}
                     /> */}
