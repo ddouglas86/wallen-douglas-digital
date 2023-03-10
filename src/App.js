@@ -13,7 +13,7 @@ import About from "./pages/About.js";
 // import Whoops404 from "./pages/Whoops404.js";
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
-import CTA from "./components/CTA.js";
+// import CTA from "./components/CTAs/DarkCTA.js";
 import "./styles.css";
 
 function App() {
@@ -55,7 +55,7 @@ function App() {
                     /> */}
                 </Routes>
             </div>
-            <CTA />
+            {/* <CTA /> */}
             <Footer /> 
         </Router>
     );

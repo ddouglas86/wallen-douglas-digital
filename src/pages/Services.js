@@ -1,6 +1,6 @@
 import React from "react";
 import { Row } from "react-bootstrap";
-import CTABar from "../components/CTABar.js";
+import CTABar from "../components/CTAs/CTABar.js";
 import OurApproach from "../components/OurApproach/DigitalApproach.js";
 import ServiceBand from "../components/ServiceBand.js";
 // import ServicesHero from "../components/HeroSections/ServicesHero.js";
