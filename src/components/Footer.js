@@ -31,17 +31,17 @@ function Footer() {
                     <Row className='custom-row'>
                         <Col md={4}><a href="/about" className='custom-nav-link'>About Us</a></Col>
                         <Col md={4}><a href="/user-experience-design" className='custom-nav-link'>UX Design</a></Col>
-                        <Col md={4}><a href="/style" className='custom-nav-link'>Style Guide</a></Col>
+                        <Col md={4}><a href="/style-guide" className='custom-nav-link'>Style Guide</a></Col>
                     </Row>
                     <Row className='custom-row'>
                         <Col md={4}><a href="/portfolio" className='custom-nav-link'>Portfolio</a></Col>
                         <Col md={4}><a href="/search-engine-optimization" className='custom-nav-link'>SEO</a></Col>
-                        <Col md={4}><a href="/terms" className='custom-nav-link'>Terms of Service</a></Col>
+                        <Col md={4}><a href="/terms-of-service" className='custom-nav-link'>Terms of Service</a></Col>
                     </Row>
                     <Row className='custom-row'>
                         <Col md={4}><a href="/security" className='custom-nav-link'>Security</a></Col>
                         <Col md={4}><a href="/analytics-reporting" className='custom-nav-link'>Analytics & Reporting</a></Col>
-                        <Col md={4}><a href="/privacy" className='custom-nav-link'>Privacy Policy</a></Col>
+                        <Col md={4}><a href="/privacy-policy" className='custom-nav-link'>Privacy Policy</a></Col>
                     </Row>
                 </Col>
 

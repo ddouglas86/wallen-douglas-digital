@@ -121,7 +121,7 @@
     .body-copy-bold-cream {
         font-size: 18px;
     }
-    
+
 }
 
 .body-copy-bold-red {
@@ -174,7 +174,7 @@
 @media screen and (max-width: 1440px) {
     .subheader-cream {
         font-size: 20px;
-    }    
+    }
 }
 
 .subheader-bold-blue {
@@ -438,7 +438,7 @@
         padding-right: 108px;
     }
 }
-    
+
 
 .row.body-copy-bold p {
     margin-bottom: 80px;
@@ -503,7 +503,7 @@
     padding-bottom: 5px;
 }
 
-@media screen and (max-width: 1440px) { 
+@media screen and (max-width: 1440px) {
     .service-band-header {
         font-size: 36px;
         padding-bottom: 20px;
@@ -521,7 +521,7 @@
     padding-bottom: 5px;
 }
 
-@media screen and (max-width: 1440px) { 
+@media screen and (max-width: 1440px) {
     .service-band-header-cream {
         font-size: 36px;
         padding-bottom: 20px;
@@ -609,7 +609,7 @@
 }
 
 @media screen and (max-width: 1440px) {
-    
+
     .service-band .grid-button-content h3 {
         font-size: 20px;
     }
@@ -703,99 +703,124 @@
 
 .what-is-band-row {
     height: 406px;
-  }
-  
+}
+
 .what-is-band-row .what-is-img-col {
     padding: 0;
-  }
-  
-  .what-is-img {
+}
+
+.what-is-img {
     height: 406px;
     width: 100%;
     object-fit: cover;
-  }
+}
 
-  .row.what-is-band-row p{
+.row.what-is-band-row p {
     margin-left: 108px;
     padding-top: 20px;
-  }
+}
 
-  .row.what-is-band-row h2{
+.row.what-is-band-row h2 {
     margin-left: 108px;
     padding-top: 20px;
-  }
+}
 
-  .top-padding{
+.top-padding {
     padding-top: 20px;
-  }
+}
 
-  /* Our Approach */
+/* Our Approach */
 
-  .our-approach-row {
+.our-approach-row {
     height: 394px;
-  }
+}
 
-  .row.our-approach-row p{
+.row.our-approach-row p {
     margin-left: 108px;
     margin-right: 108px;
     padding-top: 5px;
-  }
+}
 
-  .row.our-approach-row li{
+.row.our-approach-row li {
     margin-left: 95px;
     padding-bottom: 10px;
-  }
+}
 
-  .row.our-approach-row h2{
+.row.our-approach-row h2 {
     margin-left: 108px;
     margin-right: 108px;
     padding-top: 20px;
     padding-bottom: 25px;
-  }
+}
 
-  .our-approach-row .quad-band-img-col {
+.our-approach-row .quad-band-img-col {
     padding: 0;
-  }
-  
-  .quad-band-img {
+}
+
+.quad-band-img {
     height: 394px;
     width: 100%;
     object-fit: cover;
-  }
+}
 
-  .fifty-top-margin{
+.fifty-top-margin {
     margin-top: 50px;
-  }
+}
 
-  /* About Band */
+/* About Band */
 
-  .quad-band-row {
+.quad-band-row {
     height: 394px;
-  }
+}
 
-  .row.quad-band-row p{
+.row.quad-band-row p {
     margin-left: 108px;
     margin-right: 108px;
-  }
+}
 
-  .row.quad-band-row h2{
+.row.quad-band-row h2 {
     margin-left: 108px;
     margin-right: 108px;
     padding-top: 20px;
-  }
+}
 
-  .quad-band-row .quad-band-img-col {
+.quad-band-row .quad-band-img-col {
     padding: 0;
-  }
+}
 
-  /* Contact Band */
+/* Contact Band */
 
-  .col-margin {
+.col-margin {
     margin-left: 108px;
     margin-right: 108px;
-  }
+}
 
-  .col-text-margin {
+.col-text-margin {
     margin-left: 190px;
     margin-right: 190px;
-  }
+}
+
+/* Privacy Policy */
+
+.privacy-header {
+    color: #080C59;
+    font-family: 'Aboreto', cursive;
+    font-size: 60px;
+}
+
+.privacy-body {
+    color: #080C59;
+    font-family: 'Josefin Sans', sans-serif;
+    -webkit-text-stroke: 1px #080C59;
+    /* for Safari/Chrome */
+    text-stroke: 1px #080C59;
+    /* for other browsers */
+    font-size: 20px;
+}
+
+.privacy-subheader {
+    color: #080C59;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}

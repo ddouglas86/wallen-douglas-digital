@@ -14,7 +14,7 @@ import Security from "./pages/Security.js";
 import StyleGuide from "./pages/StyleGuide.js";
 import TOS from "./pages/TOS.js";
 import Privacy from "./pages/Privacy.js";
-// import Whoops404 from "./pages/Whoops404.js";
+import Whoops404 from "./pages/Whoops404.js";
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import ContactUs from "./pages/ContactUs.js";
@@ -37,7 +37,7 @@ function App() {
                     <Route path="/"
                         element={<Home />}
                     />
-                    <Route path="services" element={<Services />}
+                    <Route path="/services" element={<Services />}
                     />
                     <Route path="/digital-strategy" element={<Digital />}
                     />
@@ -72,9 +72,9 @@ function App() {
                     <Route path="/privacy-policy"
                         element={<Privacy />}
                     />
-                    {/* <Route path="*"
+                    <Route path="*"
                         element={<Whoops404 />}
-                    /> */}
+                    />
                 </Routes>
             </div>
             {/* <CTA /> */}
