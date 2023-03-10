@@ -4,7 +4,7 @@ import ComingSoon from "../components/ComingSoon.js";
 import "../styles.css";
 
 
-function Learn() {
+function Security() {
     return (
         <Row>
             <ComingSoon />
@@ -12,4 +12,4 @@ function Learn() {
     );
 }
 
-export default Learn;
+export default Security;

@@ -7,22 +7,27 @@ import Digital from "./pages/Digital.js";
 import SEO from "./pages/SEO.js";
 import UX from "./pages/UX.js";
 import Analytics from "./pages/Analytics.js";
-// import Portfolio from "./pages/Portfolio.js";
+import Portfolio from "./pages/Portfolio.js";
 import About from "./pages/About.js";
-// import Learn from "./pages/Learn.js";
+import Learn from "./pages/Learn.js";
+import Security from "./pages/Security.js";
+import StyleGuide from "./pages/StyleGuide.js";
+import TOS from "./pages/TOS.js";
+import Privacy from "./pages/Privacy.js";
 // import Whoops404 from "./pages/Whoops404.js";
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import ContactUs from "./pages/ContactUs.js";
 import "./styles.css";
 
-function App() {
-//     const [headerHeight, setHeaderHeight] = useState(0);
 
-//   useEffect(() => {
-//     const header = document.querySelector('header');
-//     setHeaderHeight(header.offsetHeight);
-//   }, []);
+function App() {
+    //     const [headerHeight, setHeaderHeight] = useState(0);
+
+    //   useEffect(() => {
+    //     const header = document.querySelector('header');
+    //     setHeaderHeight(header.offsetHeight);
+    //   }, []);
 
     return (
         <Router>
@@ -44,21 +49,36 @@ function App() {
                     />
                     <Route path="/contact-us" element={<ContactUs />}
                     />
-                    {/* <Route path="portfolio" element={<Portfolio />}
-                    /> */}
-                    <Route path="about"
+                    <Route path="/portfolio" element={<Portfolio />}
+                    />
+                    <Route path="/about"
                         element={<About />}
                     />
-                    {/* <Route path="learn"
+                    <Route path="/learn"
                         element={<Learn />}
                     />
-                    <Route path="*"
+                    <Route path="/style-guide"
+                        element={<StyleGuide />}
+                    />
+                    <Route path="/security"
+                        element={<Security />}
+                    />
+                    <Route path="/learn"
+                        element={<Learn />}
+                    />
+                    <Route path="/terms-of-service"
+                        element={<TOS />}
+                    />
+                    <Route path="/privacy-policy"
+                        element={<Privacy />}
+                    />
+                    {/* <Route path="*"
                         element={<Whoops404 />}
                     /> */}
                 </Routes>
             </div>
             {/* <CTA /> */}
-            <Footer /> 
+            <Footer />
         </Router>
     );
 }

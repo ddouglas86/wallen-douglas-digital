@@ -260,6 +260,10 @@
     text-decoration: none;
 }
 
+.custom-nav-link:hover {
+    color: #080C59;
+}
+
 @media screen and (max-width: 1440px) {
     .custom-nav-link {
         font-size: 20px;
@@ -304,6 +308,11 @@
 }
 
 .custom-button a {
+    text-decoration: none;
+    color: #E2DDD7;
+}
+
+.custom-button a:hover {
     text-decoration: none;
     color: #E2DDD7;
 }
