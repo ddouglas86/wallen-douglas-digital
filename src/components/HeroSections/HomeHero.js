@@ -1,11 +1,11 @@
-import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
-import hero from "../../images/home_hero.jpg";
+import React from 'react';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import hero from '../../images/home_hero.jpg';
 
 function HomeHero() {
     return (
 
-        <Container fluid={true} className="home-hero" style={{ marginTop: '130px' }}>
+        <Container fluid={true} className='home-hero' style={{ marginTop: '130px' }}>
             <Col md={4} className='custom-col-pad-left'>
                 <Row className='header-text-bold-cream'>
                     <p>Unlocking Business Growth through Digital Innovation</p>

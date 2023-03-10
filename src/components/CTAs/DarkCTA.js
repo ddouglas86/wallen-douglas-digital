@@ -1,9 +1,9 @@
-import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import React from 'react';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
 function DarkCTA() {
   return (
-    <Container fluid={true} className="custom-cta dark-blue-background">
+    <Container fluid={true} className='custom-cta dark-blue-background'>
       <Row>
         <Col className='text-center header-text-bold-cream custom-block-spacing'>
           <p>Unleash Potential</p>

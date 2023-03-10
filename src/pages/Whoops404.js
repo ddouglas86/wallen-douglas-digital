@@ -1,5 +1,5 @@
-import React from "react";
-import { Row } from "react-bootstrap";
+import React from 'react';
+import { Row } from 'react-bootstrap';
 
 function Whoops404() {
     return (

@@ -1,9 +1,9 @@
-import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import React from 'react';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
 function LightCTA() {
   return (
-    <Container fluid={true} className="custom-cta light-blue-background">
+    <Container fluid={true} className='custom-cta light-blue-background'>
       <Row>
         <Col className='text-center header-text-bold-red custom-block-spacing'>
           <p>Unleash Potential</p>

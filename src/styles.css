@@ -271,7 +271,7 @@
 }
 
 .custom-nav-link:hover::after {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     bottom: -3px;
@@ -301,7 +301,7 @@
     width: 264px !important;
     height: 58px !important;
     border-radius: 5px !important;
-    font-family: "Josefin Sans", sans-serif !important;
+    font-family: 'Josefin Sans', sans-serif !important;
     font-size: 20px !important;
     font-weight: bold !important;
     border-color: #E2DDD7 !important;

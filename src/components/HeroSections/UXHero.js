@@ -1,10 +1,10 @@
-import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import React from 'react';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
 
 function UXHero() {
   return (
-    <Container fluid={true} className="custom-cta cream-background" style={{ marginTop: '130px' }}>
+    <Container fluid={true} className='custom-cta cream-background' style={{ marginTop: '130px' }}>
       <Row>
         <Col className='text-center header-text-bold-blue cta-hero-bottom-margin cta-hero-header-margin'>
           <p>Revamp Your Digital Presence and Enhance User Engagement with Our Custom User Experience (UX) Design Services</p>

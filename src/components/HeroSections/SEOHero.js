@@ -1,10 +1,10 @@
-import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import React from 'react';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
 
 function SEOHero() {
   return (
-    <Container fluid={true} className="custom-cta light-blue-background" style={{ marginTop: '130px' }}>
+    <Container fluid={true} className='custom-cta light-blue-background' style={{ marginTop: '130px' }}>
       <Row>
         <Col className='text-center header-text-bold-red cta-hero-bottom-margin cta-hero-header-margin'>
           <p>Boost Your Online Visibility with Our Expert SEO Services</p>

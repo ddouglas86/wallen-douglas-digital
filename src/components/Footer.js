@@ -9,7 +9,7 @@ function Footer() {
             <Row className='footer-container-row custom-footer-pad'>
                 <Col md={5} className='text-center'>
                     <Row>
-                        <img src={logo} alt='Wallen-Douglas Digital logo' className='mx-auto img-fluid' style={{ maxWidth: "100%", height: "auto", width: "126px" }} />
+                        <img src={logo} alt='Wallen-Douglas Digital logo' className='mx-auto img-fluid' style={{ maxWidth: '100%', height: 'auto', width: '126px' }} />
                     </Row>
                     <Row className='company-name custom-footer-margin'>
                         <p>Wallen-Douglas<br />Digital</p>
@@ -24,24 +24,24 @@ function Footer() {
                 </Col>
                 <Col md={7} className='text-center'>
                     <Row className='custom-row'>
-                        <Col md={4}><a href="/services" className='custom-nav-link'>Services</a></Col>
-                        <Col md={4}><a href="/digital-strategy" className='custom-nav-link'>Digital Strategy</a></Col>
-                        <Col md={4}><a href="/learn" className='custom-nav-link'>Learn</a></Col>
+                        <Col md={4}><a href='/services' className='custom-nav-link'>Services</a></Col>
+                        <Col md={4}><a href='/digital-strategy' className='custom-nav-link'>Digital Strategy</a></Col>
+                        <Col md={4}><a href='/learn' className='custom-nav-link'>Learn</a></Col>
                     </Row>
                     <Row className='custom-row'>
-                        <Col md={4}><a href="/about" className='custom-nav-link'>About Us</a></Col>
-                        <Col md={4}><a href="/user-experience-design" className='custom-nav-link'>UX Design</a></Col>
-                        <Col md={4}><a href="/style-guide" className='custom-nav-link'>Style Guide</a></Col>
+                        <Col md={4}><a href='/about' className='custom-nav-link'>About Us</a></Col>
+                        <Col md={4}><a href='/user-experience-design' className='custom-nav-link'>UX Design</a></Col>
+                        <Col md={4}><a href='/style-guide' className='custom-nav-link'>Style Guide</a></Col>
                     </Row>
                     <Row className='custom-row'>
-                        <Col md={4}><a href="/portfolio" className='custom-nav-link'>Portfolio</a></Col>
-                        <Col md={4}><a href="/search-engine-optimization" className='custom-nav-link'>SEO</a></Col>
-                        <Col md={4}><a href="/terms-of-service" className='custom-nav-link'>Terms of Service</a></Col>
+                        <Col md={4}><a href='/portfolio' className='custom-nav-link'>Portfolio</a></Col>
+                        <Col md={4}><a href='/search-engine-optimization' className='custom-nav-link'>SEO</a></Col>
+                        <Col md={4}><a href='/terms-of-service' className='custom-nav-link'>Terms of Service</a></Col>
                     </Row>
                     <Row className='custom-row'>
-                        <Col md={4}><a href="/security" className='custom-nav-link'>Security</a></Col>
-                        <Col md={4}><a href="/analytics-reporting" className='custom-nav-link'>Analytics & Reporting</a></Col>
-                        <Col md={4}><a href="/privacy-policy" className='custom-nav-link'>Privacy Policy</a></Col>
+                        <Col md={4}><a href='/security' className='custom-nav-link'>Security</a></Col>
+                        <Col md={4}><a href='/analytics-reporting' className='custom-nav-link'>Analytics & Reporting</a></Col>
+                        <Col md={4}><a href='/privacy-policy' className='custom-nav-link'>Privacy Policy</a></Col>
                     </Row>
                 </Col>
 

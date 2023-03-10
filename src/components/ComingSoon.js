@@ -1,10 +1,10 @@
-import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import React from 'react';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
 
 function ComingSoon() {
     return (
-        <Container fluid={true} className="custom-cta dark-blue-background" style={{ marginTop: '130px' }}>
+        <Container fluid={true} className='custom-cta dark-blue-background' style={{ marginTop: '130px' }}>
             <Row>
                 <Col className='text-center header-text-bold-cream cta-hero-bottom-margin cta-hero-header-margin'>
                     <p>🚧 Under Construction 🚧</p>

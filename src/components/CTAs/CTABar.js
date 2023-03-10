@@ -1,10 +1,10 @@
-import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import React from 'react';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
 
 function CTABar() {
     return (
-        <Container className="cta-bar">
+        <Container className='cta-bar'>
             <Row>
                 <Col md={11}>
                     <p>Let's discuss your website and growth objectives to develop a tailored plan for your success - contact us to start the conversation!</p>

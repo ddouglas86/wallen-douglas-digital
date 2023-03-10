@@ -1,22 +1,22 @@
-import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
-import logo from "../logo.png";
-import "../styles.css";
+import React from 'react';
+import { Row, Col, Container } from 'react-bootstrap';
+import logo from '../logo.png';
+import '../styles.css';
 
 
 function TOS() {
     return (
         <Row>
-            <Container fluid={true} className="cream-background" style={{ height: '100%', marginTop: '130px' }}>
+            <Container fluid={true} className='cream-background' style={{ height: '100%', marginTop: '130px' }}>
                 <Row>
-                <Col className="flex-column d-flex justify-content-center col-margin">
-                <img src={logo} alt='Wallen-Douglas Digital logo' className='mx-auto img-fluid' style={{ maxWidth: "100%", height: "auto", width: "126px" }} />
-                <h1 className="text-center py-4 privacy-header">Wallen-Douglas Digital</h1>
-                <h2 className="text-center privacy-subheader">Terms of Service</h2>
+                <Col className='flex-column d-flex justify-content-center col-margin'>
+                <img src={logo} alt='Wallen-Douglas Digital logo' className='mx-auto img-fluid' style={{ maxWidth: '100%', height: 'auto', width: '126px' }} />
+                <h1 className='text-center py-4 privacy-header'>Wallen-Douglas Digital</h1>
+                <h2 className='text-center privacy-subheader'>Terms of Service</h2>
                 </Col>
                 </Row>
                 <Row>
-                <Col className="flex-column d-flex justify-content-center col-margin">
+                <Col className='flex-column d-flex justify-content-center col-margin'>
                     <p className='privacy-body'>These terms and conditions ("Terms") govern your use of Wallen-Douglas Digital Consulting's ("Wallen-Douglas Digital") website and services. By accessing or using the website or services, you agree to be bound by these Terms. If you do not agree with these Terms, do not use this website.</p>
                     <p className='privacy-body'>Services: Wallen-Douglas Digital provides digital consulting services to individuals and businesses.</p>
                     <p className='privacy-body'>Privacy: Wallen-Douglas Digital respects your privacy and is committed to protecting your personal information. Our Privacy Policy, which is incorporated by reference, explains how we collect, use, and disclose personal information. By using our website or services, you consent to the practices described in the Privacy Policy.</p>
